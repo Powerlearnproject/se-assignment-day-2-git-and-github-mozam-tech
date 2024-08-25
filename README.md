@@ -67,20 +67,34 @@ Public repositories are accessible to anyone on the internet while Private repos
 Security;Public repositories code and other resources are publicly visible ,which can be a security if sensitive information is included.
 Cost;public are free on github for unlimited respositories and collaboraters while private are free for individual accounts with a limited number of collaboraters
 
-What are the advantages and disadvantges of each
-
- 
-
-
-
-
-
+Advantages and Disadvantages
+Public Repositories:
+Advantages:
+-Open collaboration with a large community.
+-Free hosting with unlimited repositories.
+-Great for building a portfolio, contributing to open-source, or sharing knowledge.
+Disadvantages:
+-Lack of privacy; anyone can view the code.
+-Potential for unwanted contributions or forks.
+-Not suitable for proprietary or sensitive code.
+Private Repositories:
+Advantages:
+-Control over who can access the repository.
+-Secure environment for sensitive or proprietary code.
+-Suitable for team collaboration on private projects.
+Disadvantages:
+-Limited free options for larger teams; may require a paid plan.
+-Reduced visibility, limiting external contributions or feedback.
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 A commit in Git is a snapshot of your project’s files at a specific point in time. Each commit has a unique identifier (SHA or hash) and includes metadata such as the author, timestamp, and a commit message describing the changes12. Commits help in tracking changes and managing different versions of your project by providing a detailed history of modifications, allowing you to revert to previous states if needed.
  
 Steps to Make Your First Commit
-
+Create or Clone a Repository: Start with an existing repository or create a new one.
+Make Changes: Modify or add files in the repository.
+Stage Changes: Use git add to stage files for commit.
+Commit Changes: Use git commit -m "commit message" to save changes with a descriptive message.
+Push to GitHub: Use git push to send your commit to the remote repository.
 
  How Commits Help in Tracking Changes
 1. History Tracking: Commits provide a detailed history of changes, allowing you to see what was changed, when, and by whom.

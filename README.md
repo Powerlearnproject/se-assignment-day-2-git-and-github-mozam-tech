@@ -114,26 +114,11 @@ Why is Branching Important for Collaborative Development?
 4. Safe Experimentation: Developers can experiment with new ideas in branches without risking the stability of the main codebase²³.
 
 Process of Creating, Using, and Merging Branches
-
- 1. Creating a Branch
- 2. Using a Branch
-
-```
-
- 3. Merging a Branch
-
-
-Typical Workflow in Collaborative Development
-
-1. Create a Branch: Each developer creates a branch for their task (e.g., `feature-login`, `bugfix-issue-123`).
-2. **Develop and Commit**: Developers make changes and commit them to their branches.
-3. **Push to Remote**: Changes are pushed to the remote repository on GitHub:
-   ```bash
-   git push origin feature-new-ui
-   ```
-4. **Pull Request**: Developers create a pull request on GitHub to merge their branch into the main branch. This allows for code review and discussion.
-5. **Code Review**: Team members review the code, suggest changes, and approve the pull request.
-6. **Merge**: Once approved, the pull request is merged into the main branch. The feature branch can then be deleted to keep the repository clean⁴⁵.
+Create a Branch: git checkout -b branch-name.
+Develop on the Branch: Make changes and commit regularly.
+Switch Between Branches: Use git checkout branch-name.
+Merge Branches: git checkout main then git merge branch-name.
+Delete the Branch: After merging, use git branch -d branch-name to clean up.
                                                                        
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
